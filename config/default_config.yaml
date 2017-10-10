@@ -1,0 +1,19 @@
+# Rename this file to default.yaml, and fill in data as needed below.
+
+Logging:
+  # Possible log levels are silly, debug, verbose, info, warn, error
+  defaultLogLevel: info
+
+  # Directory where log files are stored (no trailing / )
+  logDirectory: /path/to/log/directory
+
+QRS:
+  # Paths to client certificates to use when connecting to Sense server. Can be pem or pvk/cer
+  clientCertPath: /path/to/client/cert/client.pem
+  clientCertKeyPath: /path/to/client/cert/client_key.pem
+
+  # Sense server we should connect to
+  host: yourhost.company.com
+
+  # GUID of User Directory Connector that 
+  udcGUID: xxxx-yyyy-zzzz-1111-2222-333
